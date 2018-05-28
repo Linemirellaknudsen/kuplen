@@ -1,0 +1,432 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #FCFCFC;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 10px;
+}
+.color_top {
+	background: linear-gradient(#686868, rgba(255, 0, 0, 0.0));
+}
+.color_scroll {
+	background-color: #686868;
+}
+#logo {
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+/* BURGERMENU */
+#burgermenu_btn {
+	width: 45px;
+	height: 45px;
+	border: none;
+	background-color: rgba(255, 0, 0, 0.0);
+}
+#burgermenu_btn > img {
+	width: 80%;
+	margin-top: 5px;
+	cursor: pointer;
+}
+#mobile_menu_btn {
+	text-align: right;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+#mobile_menu {
+	background-color: #686868;
+	display: none;
+}
+#mobile_menu > ul > a > li {
+	border-bottom: 0.5px solid #474444;
+	text-align: center;
+	color: #FCFCFC;
+}
+#mobile_menu > ul > a > li > img {
+	width: 14%;
+	padding: 15px 0 10px 0;
+}
+
+
+/* DESKTOP MENU */
+#desktop_menu > a {
+	color: #FCFCFC;
+	padding-left: 10px;
+	font-size: 15px;
+	font-weight: 300;
+}
+#desktop_menu {
+	padding-top: 8px;
+	text-align: right;
+	padding-right: 15px;
+}
+#desktop_menu > a > img {
+	width: 2%;
+	margin-right: -50px;
+}
+
+
+
+
+/* HEADER BILLEDE */
+#header_billede {
+	margin: 0;
+}
+
+
+/* OM KUPLEN */
+#color_light_blue {
+	color: #B6D2DF;
+}
+#om_kuplen_tekst {
+	text-align: center;
+}
+
+p {
+	color: #686868;
+}
+
+
+
+
+
+.opdeler {
+	border-bottom: 0.5px solid #151643;
+	margin: 60px 0 40px 0;
+}
+
+
+
+
+/* FACILITETER */
+.small_pic_div {
+	text-align: center;
+	margin-bottom: 25px;
+}
+.small_pic {
+	width: 90%;
+	cursor: pointer;
+}
+#facilitet_1_tekst, #facilitet_2_tekst, #facilitet_3_tekst, #facilitet_4_tekst {
+	display: none;
+	text-align: center;
+}
+
+
+
+
+/* SPISE */
+#spise {
+	background-color: #B2D2DF;
+	height: inherit;
+	padding-bottom: 20px;
+}
+#spise > h5 {
+	color: #151643;
+}
+#spise > p {
+	text-align: center;
+}
+#se_menu {
+	width: 150px;
+	border: 3px solid #151643;
+	text-align: center;
+	padding: 3px 0 3px 0;
+	margin: 25px auto;
+
+}
+#spise > a {
+	font-size: 20px;
+	color: #151643;
+	font-weight: 600;
+}
+
+
+
+
+
+/* EVENTS */
+#events {
+	text-align: center;
+}
+#events_btns {
+	margin-top: 40px;
+}
+#event_1_tekst, #event_2_tekst, #event_3_tekst {
+	text-align: center;
+	display: none;
+}
+
+
+
+
+
+/* ÅBNINGSTIDER */
+#abningstider_vejr {
+	background-color: #151643;
+	padding-bottom: 30px;
+}
+#abningstider_vejr > h5 {
+	font-size: 30px;
+}
+#vejr, #tider > p , #dage > p {
+	color: #FCFCFC;
+}
+#dage {
+	text-align: right;
+	padding-right: 30px;
+}
+#vejr {
+	text-align: center;
+}
+#abningstider {
+	justify-content: space-around;
+	margin: 30px auto 10px auto;
+}
+
+
+
+/* WEATHER */
+
+#sog_vejr {
+	display: none;
+}
+table > tbody > tr > td > img {
+	width: 150px;
+	height: auto;
+	display: block;
+	padding-bottom: 30px;
+}
+table > tbody > tr > td > h6 {
+	font-weight: 300!important;
+	margin-top: -10px;
+	color: #fcfcfc;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+#footer {
+	text-align: center;
+	padding: 10px 0 10px;
+}
+#footer > img {
+	margin: 0 auto;
+}
+
+
+
+
+
+
+.side_btn {
+	background-color: #b6d2df;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: -1px 1px 2px #a1bbc4;
+	margin-bottom: 10px;
+	height: 70px!important;
+}
+#news {
+	position: fixed;
+	top: 100px;
+	right: 5px;
+}
+#news > h6 {
+	padding-left: 3px;
+}
+button:active {
+	border: none!important;
+}
+.popupbokscontainer {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	z-index: 50;
+}
+
+
+
+.show {
+	display: block!important;
+}
+
+
+
+
+
+/* MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 100px;
+    width: 100%;
+}
+.modal-content {
+    background-color: #fcfcfc;
+    margin: auto;
+    width: 100%;
+}
+.close {
+    color: #686868;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 20px 0 0;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+form {
+	text-align: center;
+	padding: 20px;
+}
+.input_felt {
+	border: 1px solid #686868;
+}
+#cta {
+	border: 3px solid #b6d2df;
+	padding: 8px 15px;
+	font-weight: 600; 
+	color: #b6d2df;
+	margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+@media (min-width: 600px) {
+	#om_kuplen_tekst {
+		padding: 0 50px 0 50px;
+	}
+	.small_pic {
+		width: 80%;
+	}
+	#food_gif {
+		width: 300px;
+	}
+	#spise {
+		width: calc(100% - 300px);
+		height: 383px;
+		padding: 0 8px 0 8px;
+	}
+	#se_menu {
+		margin-top: 8px;
+	}
+	#facilitet_1_tekst, #facilitet_2_tekst, #facilitet_3_tekst, #facilitet_4_tekst, #event_1_tekst, #event_2_tekst, #event_3_tekst {
+		padding: 0 60px 0 60px;
+	}
+	#events {
+		padding: 0 60px 0 60px;
+	}
+	#show img, #abningstider {
+		margin: 25px auto 10px auto;
+	}
+ }
+@media (min-width: 800px) {
+	#desktop_menu > a {
+		padding-left: 20px;
+	}
+	#desktop_menu {
+		padding-top: 15px;
+		padding-right: 25px;
+	}
+	#om_kuplen_tekst {
+		padding: 0 100px 0 100px;
+	}
+	#food_gif {
+		width: 450px;
+	}
+	#spise {
+		width: calc(100% - 450px);
+		height: 574px;
+		padding: 0 15px 0 15px;
+	}
+	#se_menu {
+		margin-top: 100px;
+	}
+	#facilitet_1_tekst, #facilitet_2_tekst, #facilitet_3_tekst, #facilitet_4_tekst, #event_1_tekst, #event_2_tekst, #event_3_tekst {
+		padding: 0 120px 0 120px;
+	}
+	#events {
+		padding: 0 120px 0 120px;
+	}
+	#show img, #abningstider {
+		margin: 90px auto 10px auto;
+	}
+ }
+@media (min-width: 1000px) {
+	#desktop_menu > a {
+		padding-left: 60px;
+		font-size: 18px;
+	}
+	#desktop_menu {
+		padding-top: 19px;
+		padding-right: 60px;
+	}
+	#om_kuplen_tekst {
+		padding: 0 250px 0 250px;
+	}
+	.small_pic {
+		width: 60%;
+	}
+	#spise {
+		padding: 0 140px 0 140px;
+	}
+	#se_menu {
+		margin-top: 150px;
+	}
+	#facilitet_1_tekst, #facilitet_2_tekst, #facilitet_3_tekst, #facilitet_4_tekst, #event_1_tekst, #event_2_tekst, #event_3_tekst {
+		padding: 0 300px 0 300px;
+	}
+	#events {
+		padding: 0 300px 0 300px;
+	}
+	#news {
+		right: -30px;
+	}
+	#dome {
+		width: 500px;
+	}
+	#abningstider_vejr {
+		width: calc(100% - 500px);
+		height: 484px;
+	}
+ }	
+
+
+
+
+
+
+
+
+
+
