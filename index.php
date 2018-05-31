@@ -36,12 +36,12 @@
 	<header class="color_top">
 		<div class="row">
 
-			<div class="col s8 m4 l3">
+			<div class="col s8 m4 l2">
 				<img class="col s12" id="logo" src="img/logo_white.png">
 			</div>
 			
 			<!-- MOBILE -->
-			<div class="col s4 hide-on-med-and-up" id="mobile_menu_btn">
+			<div class="col s4 m8 hide-on-large-only" id="mobile_menu_btn">
 				<button id="burgermenu_btn">
 					<img src="img/burgermenu.png">
 				</button>
@@ -60,7 +60,7 @@
 			</div>
 
 			<!-- DESKTOP -->
-			<div class="col m8 l9 hide-on-small-only" id="desktop_menu">
+			<div class="col l10 hide-on-med-and-down" id="desktop_menu">
 				<a href="javascript:void(0);" id="menuomkuplen">OM KUPLEN</a>
 				<a href="javascript:void(0);" id="menufaciliteter">FACILITETER</a>
 				<a href="javascript:void(0);" id="menuspise">SPISE</a>
@@ -275,6 +275,7 @@
   	<img class="col s6" src="img/plakat_fam_stander.png">
     <span class="close">&times;</span>
     <form action="<?=$_SERVER['PHP_SELF']?>" method="post" class="col s6">
+    	<label>NYHEDSBREV</label>
     	<input class="input_felt" type="text" name="fornavn" placeholder="FORNAVN">
     	<input class="input_felt" type="text" name="efternavn" placeholder="EFTERNAVN">
     	<input class="input_felt" type="email" name="email" placeholder="EMAIL">

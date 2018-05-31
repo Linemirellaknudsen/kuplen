@@ -15,7 +15,7 @@ header {
 	padding-top: 10px;
 }
 .color_top {
-	background: linear-gradient(#686868, rgba(255, 0, 0, 0.0));
+	background: linear-gradient(#686868, rgba(104, 104, 104, 0.0));
 }
 .color_scroll {
 	background-color: #686868;
@@ -205,6 +205,7 @@ table > tbody > tr > td > img {
 	height: auto;
 	display: block;
 	padding-bottom: 30px;
+	margin: 0 auto;
 }
 table > tbody > tr > td > h6 {
 	font-weight: 300!important;
@@ -239,14 +240,17 @@ table > tbody > tr > td > h6 {
 	box-shadow: -1px 1px 2px #a1bbc4;
 	margin-bottom: 10px;
 	height: 70px!important;
+	width: 70px!important;
+	border: none;
 }
 #news {
 	position: fixed;
 	top: 100px;
-	right: 5px;
+	right: 10px;
 }
 #news > h6 {
-	padding-left: 3px;
+	font-size: 1.2em;
+	padding-left: 8px;
 }
 button:active {
 	border: none!important;
@@ -312,6 +316,10 @@ form {
 	color: #b6d2df;
 	margin-top: 70px;
 }
+.modal > .modal-content > form > label {
+    font-size: 2em;
+    color: #b6d2df;
+}
 
 
 
@@ -349,14 +357,13 @@ form {
 	#show img, #abningstider {
 		margin: 25px auto 10px auto;
 	}
+	#news {
+	    margin-right: 10px;
+	}
  }
 @media (min-width: 800px) {
 	#desktop_menu > a {
 		padding-left: 20px;
-	}
-	#desktop_menu {
-		padding-top: 15px;
-		padding-right: 25px;
 	}
 	#om_kuplen_tekst {
 		padding: 0 100px 0 100px;
@@ -381,15 +388,18 @@ form {
 	#show img, #abningstider {
 		margin: 90px auto 10px auto;
 	}
+	#news {
+	    margin-right: 20px;
+	}
  }
-@media (min-width: 1000px) {
+@media (min-width: 993px) {
 	#desktop_menu > a {
-		padding-left: 60px;
+		padding-left: 50px;
 		font-size: 18px;
 	}
 	#desktop_menu {
 		padding-top: 19px;
-		padding-right: 60px;
+		padding-right: 90px;
 	}
 	#om_kuplen_tekst {
 		padding: 0 250px 0 250px;
@@ -409,15 +419,15 @@ form {
 	#events {
 		padding: 0 300px 0 300px;
 	}
-	#news {
-		right: -30px;
-	}
 	#dome {
 		width: 500px;
 	}
 	#abningstider_vejr {
 		width: calc(100% - 500px);
 		height: 484px;
+	}
+	#news {
+	    margin-right: -40px;
 	}
  }	
 

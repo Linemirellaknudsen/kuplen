@@ -37,7 +37,7 @@
 		<div class="row">
 
 			<div class="col s8 m4 l3">
-				<img class="col s12" id="logo" src="img/logo_white.png">
+				<img class="col s12" id="logo" src="img/dome_logo_white.png">
 			</div>
 			
 			<!-- MOBILE -->
@@ -85,7 +85,7 @@
 
 		<div class="col s12" id="om_kuplen">
 			<div class="col s12">
-				<h5 id="color_light_blue">ABOUT THE DOME</h5>
+				<h5 id="color_light_blue">ABOUT</h5>
 			</div>
 			<div class="col s12" id="om_kuplen_tekst">
 				<p>Get closer to heaven - all the way down to earth. With THE DOME's large glass panels and amazing location in Terminal 3, you and the family can experience something extraordinary. Copenhagen Airport is no longer a gateway to the world, but a travel destination for those who just love to spot planes. The combination of amazing views, fun atmosphere and delicious food makes THE DOME the ideal destination!</p>
