@@ -274,7 +274,7 @@
   <div class="modal-content row">
   	<img class="col s6" src="img/plakat_fam_stander.png">
     <span class="close">&times;</span>
-    <form action="<?=$_SERVER['PHP_SELF']?>" method="post" class="col s6">
+    <form action="<?=$_SERVER['PHP_SELF']?>" method="post" class="col s12 l6">
     	<input class="input_felt" type="text" name="fornavn" placeholder="FIRSTNAME">
     	<input class="input_felt" type="text" name="efternavn" placeholder="SURNAME">
     	<input class="input_felt" type="email" name="email" placeholder="EMAIL">
